@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Tests\Domain\User;
 
 use App\Domain\FizzBuzz\FizzBuzz;
-use App\Domain\DomainException\DomainRecordNotFoundException;
 use Tests\TestCase;
 
 class FizzBuzzTest extends TestCase
