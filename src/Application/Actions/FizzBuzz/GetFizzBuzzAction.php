@@ -19,5 +19,4 @@ class GetFizzBuzzAction extends FizzBuzzAction
         $fizzBuzz = new FizzBuzz($value);
         return $this->respondWithData($fizzBuzz);
     }
-    
 }
